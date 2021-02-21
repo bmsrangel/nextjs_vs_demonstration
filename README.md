@@ -11,9 +11,9 @@ Este repositório contém o código de exemplo utilizado na playlist de [API RES
 ### URL base: http://localhost:3000/api
 ### Rotas disponíveis:
 - GET
-  - / -> retorna o objeto `{ status: 'success' }`
+  - / -> retorna o objeto `{ status: 'success, Next!' }`
   - /users -> retorna uma lista de usuários
   - /users/:id -> retorna um usuário
 
 - POST
-  - /users -> teoricamente adiciona um usuário e retorna o objeto `{ status: 'created' }`
+  - /users -> teoricamente adiciona um usuário e retorna o objeto `{ status: 'created, Next' }`
